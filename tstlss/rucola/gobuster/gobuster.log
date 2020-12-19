@@ -1,0 +1,14 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:            http://okboomer.tasteless.eu:11002/
+[+] Method:         GET
+[+] Threads:        10
+[+] Wordlist:       /opt/wordlists/directory-list-1.0.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.1.0
+[+] Timeout:        10s
+===============================================================
+2020/10/04 19:39:56 Starting gobuster in directory enumeration mode
+===============================================================

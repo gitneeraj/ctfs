@@ -1,0 +1,201 @@
+0 g 0 G
+0 g 0 G
+0 g 0 G
+BT
+/F29 10.9091 Tf 70.364 726.96 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Conduct/attend)-250(re)15(gular)-250(information)-250(security)-250(a)15(w)10(areness)-250(training.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -10.909 -22.516 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Apply)-250(the)-250(latest)-250(patches.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -10.909 -22.515 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Implement)-250(netw)10(ork)-250(se)15(gmentation.)-310(Separate)-250(IT)-250(and)-250(O)40(T)-250(\050production\051)-250(netw)10(orks.)-310(If)-250(applicable,)-250(use)-250(at)-250(least)-250(one)]TJ 0 -13.549 Td [(netw)10(ork)-250(se)15(gment)-250(per)-250(production)-250(line.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -10.909 -22.516 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Use)-250(manageable)-250(switches)-250(in)-250(your)-250(netw)10(orks,)-250(and)-250(disable)-250(all)-250(unused)-250(ports.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -10.909 -22.516 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Use)-250(\002re)25(w)10(alls)-250(to)-250(\002lter)-250(netw)10(ork)-250(traf)25(\002c)-250(between)-250(netw)10(orks.)-310(Apply)-250(whitelisting)-250(to)-250(only)-250(allo)25(w)-250(le)15(gitimate)-250(netw)10(ork)]TJ 0 -13.549 Td [(traf)25(\002c.)]TJ
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 551.539 cm
+0 0 509.978 28.247 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 555.324 cm
+0 0 500.899 20.676 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 561.826 Td [(T)60(ec)10(hnical)-278(description)-278(of)-278(the)-278(vulnerabilities)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 576.199 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 555.125 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 555.497 555.125 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 54 555.125 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 576.598 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 554.727 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 557.801 554.727 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 54 554.727 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+0 g 0 G
+BT
+/F29 10.9091 Tf 70.364 530.151 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28101,)-250(CVE-2020-28102,)-250(CVE-2020-28103,)-250(CVE-2020-28106)]TJ
+0 g 0 G
+/F34 10.9091 Tf 13.091 -22.515 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28101,)-250(CVE-2020-28102,)-250(CVE-2020-28103,)-250(and)-250(CVE-2020-28106)-250(are)-250(RCE)-250(vulnerabilities)]TJ 0 -13.55 Td [(in)-250(the)-250(TCP)-250(layer)-250(of)-250(xV)111(eeW)80(orks.)-310(It)-250(af)25(fects)-250(QuicksandRuntime)]TJ/F35 7.9701 Tf 267.64 3.959 Td [(TM)]TJ/F35 10.9091 Tf 15.181 -3.959 Td [(4.x.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -293.73 -15.541 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(The)-250(follo)25(wing)-250(series)-250(of)-250(BB)-250(BenF)15(orm-19-F)-250(machines)-250(are)-250(af)25(fected:)-310(cf1c1a057d47,)-250(86a9ef0f5a74,)]TJ 0 -13.55 Td [(4e6f)10(a75810fc,)-250(and)-250(855f3945f731.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -10.909 -15.541 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(The)-250(CVSS)-250(v3.1)-250(base)-250(score)-250(for)-250(the)-250(vulnerabilities)-250(is)-250(9.4)-250(\050A)135(V)74(:N/A)40(C:L/PR:N/UI:N/S:U/C:L/I:H/A:H\051.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -34.909 -20.523 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28107)]TJ
+0 g 0 G
+/F34 10.9091 Tf 13.091 -22.516 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28107)-250(is)-250(an)-250(encryption)-250(weakness)-250(in)-250(the)-250(OFB)-250(mode)-250(of)-250(the)-250(proprietary)-250(crypto)-250(mode)-250(in)]TJ 0 -13.549 Td [(xV)111(eeW)80(orks.)-310(It)-250(af)25(fects)-250(QuicksandRuntime)]TJ/F35 7.9701 Tf 181.285 3.959 Td [(TM)]TJ/F35 10.9091 Tf 15.18 -3.959 Td [(4.x.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -207.374 -15.542 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(BB)-250(machines)-250(don')18(t)-250(use)-250(an)15(y)-250(cryptograph)5(y)65(.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -10.909 -15.542 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(The)-250(CVSS)-250(v3.1)-250(base)-250(score)-250(for)-250(the)-250(vulnerability)-250(is)-250(4.7)-250(\050A)135(V)74(:L/A)40(C:H/PR:L/UI:N/S:U/C:H/I:N/A:N\051.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -34.909 -20.523 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28104,)-250(CVE-2020-28105,)-250(CVE-2020-28108)]TJ
+0 g 0 G
+/F34 10.9091 Tf 13.091 -22.515 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(CVE-2020-28104,)-250(CVE-2020-28105,)-250(and)-250(CVE-2020-28108)-250(are)-250(information)-250(disclosure)-250(vulnerabilities)]TJ 0 -13.549 Td [(in)-250(xV)111(eeW)80(orks.)-310(It)-250(af)25(fects)-250(QuicksandRuntime)]TJ/F35 7.9701 Tf 192.499 3.958 Td [(TM)]TJ/F35 10.9091 Tf 15.181 -3.958 Td [(5.x.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -218.589 -15.542 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(The)-250(follo)25(wing)-250(series)-250(of)-250(BB)-250(BenF)15(orm-20-A)-250(machines)-250(are)-250(af)25(fected:)-310(826610fc022a,)-250(e726719dc183,)]TJ 0 -13.549 Td [(b7451dc8f5bf,)-250(and)-250(3e3c8ad7bc55.)-310(Ho)25(we)25(v)15(er)40(,)-250(BB)-250(doesn')18(t)-250(disclose)-250(an)15(y)-250(secrets)-250(via)-250(the)-250(af)25(fected)-250(modules.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -10.909 -15.542 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(The)-250(CVSS)-250(v3.1)-250(base)-250(score)-250(for)-250(the)-250(vulnerability)-250(is)-250(5.4)-250(\050A)135(V)74(:A/A)40(C:H/PR:L/UI:N/S:U/C:H/I:L/A:N\051.)]TJ
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 205.046 cm
+0 0 509.978 28.247 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 208.832 cm
+0 0 500.899 20.676 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 215.334 Td [(Security)-278(contact)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 229.707 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 208.633 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 555.497 208.633 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 54 208.633 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 230.106 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 208.234 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 557.801 208.234 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 54 208.234 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+0 g 0 G
+0 g 0 G
+BT
+/F35 10.9091 Tf 62.568 183.659 Td [(F)15(or)-250(security-related)-250(questions)-250(or)-250(reports,)-250(please)-250(contact)-250(the)-250(PSIR)60(T)-250(of)-250(BB)-250(Industry)-250(a.s.:)]TJ
+0 0 1 rg 0 0 1 RG
+ [-310(psirt@bb-industry)65(.cz)]TJ
+0 g 0 G
+0 g 0 G
+0 g 0 G
+ 0 -25.505 Td [(The)-250(BB)-250(PSIR)60(T)-250(is)-250(kindly)-250(supported)-250(by)-250(our)-250(subsidary)-250(Senork)-250(V)111(ertriebs)-250(GmbH)-250(in)-250(German)15(y)65(.)]TJ
+0 g 0 G
+0 g 0 G
+ET

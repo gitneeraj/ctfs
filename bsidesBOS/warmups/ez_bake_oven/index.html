@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        #wrapper {
+            overflow-x: hidden;
+        }
+
+        #sidebar-wrapper {
+            min-height: 100vh;
+        }
+
+        #sidebar-wrapper .sidebar-heading {
+            padding: 0.875rem 1.25rem;
+            font-size: 1.2rem;
+        }
+
+        #sidebar-wrapper .list-group {
+            width: 20rem;
+        }
+
+        #page-content-wrapper {
+            width: 100%;
+        }
+    </style>
+    <title>EZ Bake Oven</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">EZ Bake Oven</div>
+            <div class="list-group list-group-flush">
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Doughnuts
+                    <span class="text-muted" style="font-size: 12px;">
+                        (30 minutes)
+                    </span>
+                    <button data-id="Doughnuts" class="btn btn-success float-right"
+                        onclick="cook('Doughnuts')">
+                        Cook
+                    </button>
+                </div>
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Brownie
+                    <span class="text-muted" style="font-size: 12px;">
+                        (50 minutes)
+                    </span>
+                    <button data-id="Brownie" class="btn btn-success float-right"
+                        onclick="cook('Brownie')">
+                        Cook
+                    </button>
+                </div>
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Carrot Cake
+                    <span class="text-muted" style="font-size: 12px;">
+                        (40 minutes)
+                    </span>
+                    <button data-id="Carrot Cake" class="btn btn-success float-right"
+                        onclick="cook('Carrot Cake')">
+                        Cook
+                    </button>
+                </div>
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Muffins
+                    <span class="text-muted" style="font-size: 12px;">
+                        (15 minutes)
+                    </span>
+                    <button data-id="Muffins" class="btn btn-success float-right"
+                        onclick="cook('Muffins')">
+                        Cook
+                    </button>
+                </div>
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Chocolate Cake
+                    <span class="text-muted" style="font-size: 12px;">
+                        (90 minutes)
+                    </span>
+                    <button data-id="Chocolate Cake" class="btn btn-success float-right"
+                        onclick="cook('Chocolate Cake')">
+                        Cook
+                    </button>
+                </div>
+                
+                <div class="list-group-item list-group-item-action bg-light">
+                    Magic Cookies
+                    <span class="text-muted" style="font-size: 12px;">
+                        (7200 minutes)
+                    </span>
+                    <button data-id="Magic Cookies" class="btn btn-success float-right"
+                        onclick="cook('Magic Cookies')">
+                        Cook
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+            <div class="container-fluid">
+                
+                    
+                    <div class="alert alert-warning mt-3" role="alert">
+                        Your <strong>Doughnuts</strong>  are in the oven!
+                    </div>
+                    
+                
+                <div style="position: relative;">
+                    <div class="row justify-content-center"
+                        style="position: absolute; top: 0; left:0; z-index:1; bottom:0; right:0; height:100%;">
+                        <h5 id="timer" class="text-center" style="margin-top: 125px;"></h5>
+                    </div>
+                    
+                    <div id="oven_hot" class="row justify-content-center">
+                        <img id="oven_hot" width="800px" src="/static/oven_hot.svg" alt="Hot Oven">
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+</body>
+
+<script>
+    function cook(recipe) {
+        data = {
+            "recipe": recipe
+        }
+
+        fetch("http://challenge.ctf.games:32575/cook", {
+            method: "POST",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then(res => {
+            if (res.status != 200) {
+                res.json().then((json) => {
+                    console.log("Error " + json.message)
+                }).catch(() => {
+                    console.log("Error")
+                });
+            } else {
+                res.json().then((json) => {
+                    console.log("Success")
+                    // location.reload();
+                }).catch(() => {
+                    console.log("Error")
+                });;
+            }
+        });
+    };
+
+    // Set the date we're counting down to
+    
+
+    var countDownDate = new Date("2020-09-26 13:22:01");
+    countDownDate.setSeconds(countDownDate.getSeconds() + 1800);
+    countDownDate = countDownDate.getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+        // Get today's date and time
+        var nowUTC = new Date(new Date().toUTCString().substr(0, 25));
+
+        // Find the distance between nowUTC and the count down date
+        var distance = countDownDate - nowUTC;
+
+        // Time calculations for hours, minutes and seconds
+        var hours = Math.floor(distance / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("timer").innerHTML = hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            location.reload();
+        }
+    }, 1000);
+
+    
+
+
+</script>
+
+</html>

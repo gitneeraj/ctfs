@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+strings 2/LibrePLC_fw_1.0.2.bin | grep -Ei "syskronCTF{.*?}"

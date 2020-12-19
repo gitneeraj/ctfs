@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Sep 28 18:39:24 2020
+Invocation: foremost -t png -i surprise_party.png 
+Output directory: /home/neeraj/Personal/bsidesBOS/steganography/surprise_party/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: surprise_party.png
+Start: Mon Sep 28 18:39:24 2020
+Length: 166 KB (170911 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     166 KB 	          0 	  (800 x 343)
+Finish: Mon Sep 28 18:39:24 2020
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Sep 28 18:39:24 2020

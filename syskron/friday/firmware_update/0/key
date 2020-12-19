@@ -1,0 +1,48 @@
+#!/usr/bin python3
+
+import hashlib #line:3
+import sys #line:4
+
+def check ():
+        if len (sys .argv )==1 :#
+                print ("No key for you")#
+                sys .exit (0 )#line:9
+        else :#line:10
+                filename =sys .argv [1 ]#
+                return filename #line:12
+
+def get_it (passed_filename ):#line:14
+        with open (passed_filename ,"rb")as f_handle: #line:15
+                file_contents =f_handle.read ()
+                hashed_data =hashlib .sha256 (file_contents ).hexdigest ()
+        return hashed_data #line:18
+
+def keys (passed_hashed_data ):#line:20
+        print(passed_hashed_data)
+        first_computed = passed_hashed_data [::-1 ][:10 ] #line:21
+        # second_computed = passed_hashed_data [5 :20 ][::-1 ] #line:22
+        second_computed = first_computed .replace ("1","0")[::-1 ].replace ("9","sys") #
+        first_computed = second_computed .replace ("a","k").replace ("4","q").replace ("b","c").replace ("5","kron") #line:24
+        third_computed = passed_hashed_data [23 :50 ][::-1 ].replace ("8","n")
+        forth_computed = passed_hashed_data [50 :61 ][::-1 ].replace ("7","ctf") #
+        final = (second_computed +forth_computed +first_computed +third_computed ).upper () #
+
+
+        return final #line:30
+print (keys (get_it (check ())))
+
+def apes(passed_hashed_data):
+        text = passed_hashed_data.upper()
+
+        first = text[50:61][::-1 ].replace ("ctf","7")
+        second = text [23 :50 ][::-1 ].replace ("n","8")
+
+# ca4750ce94fe369236a45ae89f1cfa308e335ba5ce94597565bc6a79cc3176bd
+# python key LibrePLC_fw_1.0.0.bin
+# 7SYSCC3076BDCTF13CC9CTFA6CB7SYSCC3076CD56579549EC5AB533EN03AFC1F9N
+
+# python ../0/key LibrePLC_fw_1.0.1.bin
+# CSYS0BBA60E46ABB19C5BC0CSYS0CCK60EQ1NC41E2C5DDA4C5C7D45E096162
+
+# python ../0/key LibrePLC_fw_1.0.2.bin
+# D770C7F7F0FCTFC1CTFCTFD912AD770C7F7F0E5C7CB33DE0E69ABBN47231402E

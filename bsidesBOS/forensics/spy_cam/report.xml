@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.5.1</version>
+    <build_environment>
+      <compiler>10.1.0 (10.1.0)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -march=x86-64 -mtune=generic -O3 -pipe -fno-plt -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -march=x86-64 -mtune=generic -O3 -pipe -fno-plt -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now</LDFLAGS>
+      <LIBS>-lcap-ng -lpcap -lcairo -lfontconfig -lfreetype -lbz2 -lpixman-1 -lexpat  -lsqlite3 -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2020-07-07T16:19:01</compilation_date>
+      <library name="boost" version="107200"/>
+      <library name="sqlite" version="3.32.3" source_id="2020-06-18 14:00:33 7ebdfa80be8e8e73324b8d66b3460222eb74c7e9dfd655b48d6ca7e1933cc8fd"/>
+      <git commit="tcpflow-1.4.0beta1-341-gf4097c7"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.7.8-artix1-1</os_release>
+      <os_version>#1 SMP PREEMPT Sat, 11 Jul 2020 19:50:28 +0000</os_version>
+      <host>artix</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -r capture.pcap</command_line>
+      <uid>1000</uid>
+      <username>neeraj</username>
+      <start_time>2020-09-30T11:23:16Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>127.000.000.001.60542-127.000.000.001.08081</filename>
+      <filesize>555</filesize>
+      <tcpflow startime='2020-09-03T18:46:49.094478Z' endtime='2020-09-03T18:47:19.334890Z' family='2' src_ipn='127.0.0.1' dst_ipn='127.0.0.1' srcport='60542' dstport='8081' packets='887' len='59105' />
+    </fileobject>
+    <fileobject>
+      <filename>127.000.000.001.08081-127.000.000.001.60542</filename>
+      <filesize>17300971</filesize>
+      <tcpflow startime='2020-09-03T18:46:49.094488Z' endtime='2020-09-03T18:47:19.360724Z' family='2' src_ipn='127.0.0.1' dst_ipn='127.0.0.1' srcport='8081' dstport='60542' packets='1726' len='17414895' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2020-09-03T18:46:49.094435Z' endtime='2020-09-03T18:46:49.094435Z' family='10' src_ipn='::1' dst_ipn='::1' srcport='56152' dstport='8081' packets='1' len='94' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>1</open_fds_at_end>
+  <max_open_flows>2</max_open_flows>
+  <total_flows>3</total_flows>
+  <flow_map_size>2</flow_map_size>
+  <total_packets>2614</total_packets>
+  <rusage>
+    <utime>0.026153</utime>
+    <stime>0.058855</stime>
+    <maxrss>11752</maxrss>
+    <minflt>1288</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>34216</inblock>
+    <oublock>33808</oublock>
+    <clocktime>0.307386</clocktime>
+  </rusage>
+</dfxml>

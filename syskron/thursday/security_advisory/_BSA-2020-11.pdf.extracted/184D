@@ -1,0 +1,302 @@
+0 g 0 G
+0 g 0 G
+0 g 0 G
+1 0 0 1 437.999 614.399 cm
+q
+.6 0 0 .6 0 0 cm
+q
+200 0 0 200 0 0 cm
+/Im1 Do
+Q
+Q
+1 0 0 1 -437.999 -614.399 cm
+BT
+/F34 14.3462 Tf 54 696.542 Td [(BB)-250(Industry)-250(Security)-250(Advisory)]TJ/F29 14.3462 Tf 193.686 0 Td [(j)]TJ/F34 14.3462 Tf 7.571 0 Td [(BSA-2020-11)]TJ/F35 10.9091 Tf -201.257 -13.549 Td [(Product)-250(Security)-250(Incident)-250(Response)-250(T)70(eam)]TJ 0 -13.55 Td [(BB)-250(Industry)-250(a.s.,)-250(Plze)]TJ 96.059 0.055 Td [(\020)]TJ -0.911 -0.055 Td [(n,)-250(Czechia)]TJ
+0 0 1 rg 0 0 1 RG
+ -95.148 -13.549 Td [(psirt@bb-industry)65(.cz)]TJ
+0 g 0 G
+0 0 1 rg 0 0 1 RG
+ 0 -13.549 Td [(www)65(.senork.de)]TJ
+0 g 0 G
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 592.1 cm
+0 0 509.978 28.247 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 595.886 cm
+0 0 500.899 20.676 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 602.388 Td [(Description)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 616.761 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 595.687 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 555.497 595.687 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 54 595.687 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 617.159 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 595.288 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 557.801 595.288 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 54 595.288 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+0 g 0 G
+0 g 0 G
+BT
+/F35 10.9091 Tf 62.568 571.852 Td [(In)-307(September)-307(2020,)-322(Linz)-307(Industrial)-307(Automation)-307(A)40(G)-307(published)-307(a)-308(security)-307(advisory)-307(that)-307(addresses)-307(the)-307(so-called)]TJ/F34 10.9091 Tf 0 -13.549 Td [(Blo)10(w\002sh/8)]TJ/F35 10.9091 Tf 51.394 0 Td [(security)-275(vulnerabilities)-275(in)-275(its)-275(products.)-386(Blo)25(w\002sh/8)-275(describes)-275(eight)-275(security)-275(vulnerabilities)-275(identi\002ed)]TJ -51.394 -13.549 Td [(in)-273(the)-274(real-time)-273(operating)-273(system)-274(xV)111(eeW)80(orks)-273(that)-273(is)-274(used)-273(by)-274(embedded)-273(systems.)-380(The)-273(QuicksandRuntime)]TJ/F35 7.9701 Tf 460.519 3.959 Td [(TM)]TJ/F35 10.9091 Tf 15.436 -3.959 Td [(by)]TJ -475.955 -13.549 Td [(Linz)-250(Industrial)-250(Automation)-250(A)40(G)-250(is)-250(based)-250(on)-250(xV)111(eeW)80(orks,)-250(hence)-250(it)-250(is)-250(af)25(fected)-250(by)-250(these)-250(security)-250(vulnerabilities.)]TJ
+0 g 0 G
+0 g 0 G
+ 0 -21.386 Td [(An)-325(attack)10(er)40(,)-345(who)-325(successfully)-325(e)15(xploits)-326(the)-325(vulnerabilities,)-344(can)-326(control)-325(vulnerable)-326(components)-325(completely)65(,)-344(ac-)]TJ 0 -13.549 Td [(cording)-250(to)-250(the)-250(original)-250(Blo)25(w\002sh/8)-250(report.)]TJ
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 437.141 cm
+0 0 509.978 28.247 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 440.927 cm
+0 0 500.899 20.676 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 447.428 Td [(Aff)10(ected)-278(pr)20(oducts/ser)-10(vices)-278(and)-278(remediation)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 461.802 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 440.728 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 555.497 440.728 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 54 440.728 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 462.2 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 440.329 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 557.801 440.329 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 54 440.329 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+0 g 0 G
+BT
+/F29 10.9091 Tf 70.364 408.057 Td [(\017)]TJ
+0 g 0 G
+/F34 10.9091 Tf 10.909 6.792 Td [(BB)-250(BenF)25(orm-19-F)]TJ/F35 10.9091 Tf 405.262 0 Td [(CVSSv3.1)-250(9.4)]TJ/F39 10.9091 Tf -405.262 -13.549 Td [(W)92(orkar)45(ound)-250(available)]TJ
+0 g 0 G
+/F34 10.9091 Tf 13.091 -15.034 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(W)80(e)-250(primarily)-250(recommend)-250(implementing)-250(the)-250(mitig)5(ations)-250(listed)-250(in)-250(the)-250(ne)15(xt)-250(section.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -10.909 -15.086 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(F)15(or)-250(QuicksandRuntime)]TJ/F35 7.9701 Tf 101.955 3.959 Td [(TM)]TJ/F35 10.9091 Tf 15.181 -3.959 Td [(4.1.x)-250(and)-250(4.2.x,)-250(BB)-250(may)-250(of)25(fer)-250(customer)20(-speci\002c)-250(updates.)-310(Please)-250(contact)-250(the)]TJ -117.136 -13.549 Td [(BB)-250(service.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -34.909 -23.943 Td [(\017)]TJ
+0 g 0 G
+/F34 10.9091 Tf 10.909 6.792 Td [(BB)-250(BenF)25(orm-20-A)]TJ/F35 10.9091 Tf 405.262 0 Td [(CVSSv3.1)-250(5.4)]TJ/F39 10.9091 Tf -405.262 -13.55 Td [(F)45(ix)-250(available)]TJ
+0 g 0 G
+/F34 10.9091 Tf 13.091 -16.876 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(BB)-250(BenF)15(orm-20-A)-250(uses)-250(QuicksandRuntime)]TJ/F35 7.9701 Tf 192.86 3.958 Td [(TM)]TJ/F35 10.9091 Tf 15.18 -3.958 Td [(5.2.x.)-310(This)-250(v)15(ersion)-250(isn')18(t)-250(directly)-250(af)25(fected)-250(by)-250(Blo)25(w\002sh/8.)]TJ
+0 g 0 G
+/F34 10.9091 Tf -218.949 -28.635 Td [(\226)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(BB)-250(may)-250(of)25(fer)-250(customer)20(-speci\002c)-250(updates.)-310(Please)-250(contact)-250(the)-250(BB)-250(service.)]TJ
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 226.281 cm
+0 0 509.978 28.325 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 230.067 cm
+0 0 500.899 20.753 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 236.646 Td [(W)60(orkar)20(ounds)-278(and)-278(mitigations)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 251.02 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 229.868 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.152 l S
+Q
+q
+1 0 0 1 555.497 229.868 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.152 l S
+Q
+q
+1 0 0 1 54 229.868 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 251.418 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 229.469 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.949 l S
+Q
+q
+1 0 0 1 557.801 229.469 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.949 l S
+Q
+q
+1 0 0 1 54 229.469 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+0 g 0 G
+BT
+/F29 10.9091 Tf 70.364 206.033 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Use)-250(\002re)25(w)10(alls)-250(to)-250(control)-250(traf)25(\002c)-250(between)-250(netw)10(orks.)-310(Explicitly)-250(allo)25(w)-250(traf)25(\002c)-250(\050whitelisting\051.)-310(Drop)-250(TCP)-250(pack)10(ets)]TJ 0 -13.549 Td [(with)-250(8)-250(byte)-250(length.)-310(Dropping)-250(such)-250(TCP)-250(pack)10(ets)-250(mak)10(es)-250(it)-250(dif)25(\002cult)-250(to)-250(e)15(xploit)-250(the)-250(TCP-based)-250(vulnerabilities)-250(as)]TJ 0 -13.549 Td [(described)-250(in)-250(Blo)25(w\002sh/8.)]TJ
+0 g 0 G
+/F29 10.9091 Tf -10.909 -22.06 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(If)-250(applicable,)-250(monitor)-250(your)-250(complete)-250(netw)10(ork)-250(traf)25(\002c)-250(to)-250(detect)-250(anomalous)-250(netw)10(ork)-250(traf)25(\002c.)]TJ
+0.75 g 0.75 G
+0.75 g 0.75 G
+ET
+q
+1 0 0 1 51.011 100.507 cm
+0 0 509.978 28.247 re f
+Q
+0.75 g 0.75 G
+0 g 0 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+0.93 g 0.93 G
+q
+1 0 0 1 54.398 104.293 cm
+0 0 500.899 20.676 re f
+Q
+0.93 g 0.93 G
+0 g 0 G
+BT
+/F36 11.9552 Tf 61.416 110.794 Td [(General)-278(security)-278(recommendations)]TJ
+0.93 g 0.93 G
+0.93 g 0.93 G
+ET
+q
+1 0 0 1 54 125.168 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+q
+1 0 0 1 54.199 104.093 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 555.497 104.093 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.074 l S
+Q
+q
+1 0 0 1 54 104.093 cm
+[]0 d 0 J 0.398 w 0 0 m 501.696 0 l S
+Q
+0 g 0 G
+q
+1 0 0 1 54 125.566 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+q
+1 0 0 1 54.199 103.695 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 557.801 103.695 cm
+[]0 d 0 J 0.398 w 0 0 m 0 21.871 l S
+Q
+q
+1 0 0 1 54 103.695 cm
+[]0 d 0 J 0.398 w 0 0 m 504 0 l S
+Q
+0.75 g 0.75 G
+0 g 0 G
+BT
+/F35 10.9091 Tf 54 88.086 Td [(In)-250(general,)-250(we)-250(recommend)-250(implementing)-250(the)-250(follo)25(wing)-250(recommendations)-250(for)-250(basic)-250(protection)-250(of)-250(your)-250(IT)-250(systems)]TJ 0 -13.55 Td [(and)-250(netw)10(ork)-250(components:)]TJ
+0 g 0 G
+/F29 10.9091 Tf 16.364 -24.136 Td [(\017)]TJ
+0 g 0 G
+/F35 10.9091 Tf 10.909 0 Td [(Inform)-250(your)-250(emplo)10(yees,)-250(team)-250(members,)-250(and)-250(colleagues)-250(of)-250(this)-250(advisory)65(.)]TJ
+0 g 0 G
+0 g 0 G
+ET

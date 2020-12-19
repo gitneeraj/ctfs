@@ -1,0 +1,7 @@
+GET /wp-content/themes/avada/picture4.png HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Accept-Language: en-US
+User-Agent: FobosAxios
+Host: www.sinotes.com
+
